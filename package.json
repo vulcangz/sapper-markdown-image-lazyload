@@ -14,7 +14,7 @@
   "dependencies": {
     "compression": "^1.7.1",
     "front-matter": "^3.1.0",
-    "marked": "^1.0.0",
+    "marked": "^2.0.0",
     "polka": "next",
     "sirv": "^0.4.0"
   },
@@ -33,6 +33,7 @@
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^5.3.0",
     "sapper": "^0.27.0",
-    "svelte": "^3.0.0"
+    "svelte": "^3.0.0",
+    "serialize-javascript": ">=3.1.0"
   }
 }
