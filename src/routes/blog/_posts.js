@@ -9,7 +9,7 @@
 
 const fs = require('fs');
 const frontMatter = require('front-matter');
-const marked = require('marked');
+import { marked } from 'marked'
 
 const renderer = new marked.Renderer();
 
