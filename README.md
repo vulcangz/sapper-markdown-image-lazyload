@@ -4,6 +4,22 @@ A Sapper template that uses Markdown to store blog posts.
 
 It's code for [this post: 在Svelte Sapper应用中实现延迟加载Markdown文件内的图片](https://www.worldlink.com.cn/post/lazy-loading-images-from-markdown-files-in-the-svelte-sapper-app.html).
 
+## Usage
+
+Install dependencies
+```bash
+yarn
+```
+
+For development
+```bash
+yarn dev
+```
+
+Open your browser on <http://localhost:3000>
+
+Or Visit directly to <http://localhost:3000/blog/sample-post-with-images>. Press F12 on network TAB to see how the image loads.
+
 ## What's different compared to the official Sapper template?
 
 Instead of persisting blog posts in a JSON file at `src/routes/blog/_posts.js`,
